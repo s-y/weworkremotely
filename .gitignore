@@ -1,0 +1,14 @@
+*.py[co]
+*.db
+*.sqlite3
+media
+.idea
+*.swp
+
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+npm-debug.log
+
