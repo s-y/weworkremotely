@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="djangoTApp">
+  <body ng-app="django">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -23,9 +23,9 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
+          <li class="active"><a ui-sref="#">Home</a></li>
+          <li><a ui-sref="#">About</a></li>
+          <li><a ui-sref="#">Contact</a></li>
         </ul>
         <h3 class="text-muted">djangoT</h3>
       </div>
@@ -76,12 +76,16 @@
     <script src="static/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
     <script src="static/angular-cookies/angular-cookies.js"></script>
     <script src="static/angular-sanitize/angular-sanitize.js"></script>
+    <script src="static/angular-ui-router/release/angular-ui-router.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/routes.js"></script>
+        <script src="scripts/controllers/forma.js"></script>
+        <script src="scripts/controllers/about.js"></script>
         <!-- endbuild -->
 </body>
 </html>
